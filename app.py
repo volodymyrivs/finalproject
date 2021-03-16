@@ -6,7 +6,11 @@ images = [
 "https://media.giphy.com/media/KAq5w47R9rmTuvWOWa/giphy.gif",
 "https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif",
 "https://media.giphy.com/media/kH6CqYiquZawmU1HI6/giphy.gif",
-"https://media.giphy.com/media/d8iBSenW36aQE0isva/giphy.gif"
+"https://media.giphy.com/media/d8iBSenW36aQE0isva/giphy.gif",
+"https://media.giphy.com/media/xULW8PLGQwyZNaw68U/giphy-downsized-large.gif",
+"https://media.giphy.com/media/eYilisUwipOEM/giphy.gif",
+"https://media.giphy.com/media/DBPEwTU6klcac/giphy.gif",
+"https://media.giphy.com/media/TaBJhZTUALPlm/giphy.gif"
 ]
 @app.route('/')
 def index():
