@@ -1,13 +1,12 @@
 from flask import Flask, render_template
 import random
 app = Flask(__name__)
-# list of cat images
 images = [
-"https://media4.giphy.com/media/AwF74xIsyoiKQ/giphy.gif?cid=ecf05e47kb243v3oda8bciepcvtm69w3amxc7jvpe5nch3mp&rid=giphy.gif",
-"https://media1.giphy.com/media/gvlzz2kUlk05q/giphy.gif?cid=ecf05e47kb243v3oda8bciepcvtm69w3amxc7jvpe5nch3mp&rid=giphy.gif",
-"https://media2.giphy.com/media/BzyTuYCmvSORqs1ABM/giphy.gif?cid=ecf05e4704i1kebnyymf2w37ef1cis7f9svbct43jpk01vfm&rid=giphy.gif",
-"https://media0.giphy.com/media/l4KibK3JwaVo0CjDO/giphy.gif?cid=ecf05e4704i1kebnyymf2w37ef1cis7f9svbct43jpk01vfm&rid=giphy.gif",
-"https://media1.giphy.com/media/VbnUQpnihPSIgIXuZv/giphy.gif?cid=ecf05e4704i1kebnyymf2w37ef1cis7f9svbct43jpk01vfm&rid=giphy.gif"
+"https://media3.giphy.com/media/l2QE73aOjxO1fkd6E/giphy.gif",
+"https://media.giphy.com/media/KAq5w47R9rmTuvWOWa/giphy.gif",
+"https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif",
+"https://media.giphy.com/media/kH6CqYiquZawmU1HI6/giphy.gif",
+"https://media.giphy.com/media/d8iBSenW36aQE0isva/giphy.gif"
 ]
 @app.route('/')
 def index():
